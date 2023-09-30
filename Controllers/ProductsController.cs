@@ -23,7 +23,7 @@ namespace TestWebAPI.Controllers
             products = new List<Product>{
             new Product { ProductId = 1, Name = "Apple", Price = 100 },
             new Product { ProductId = 2, Name = "Banana", Price = 50 },
-            new Product { ProductId = 3, Name = "Duriant", Price = 78 }
+            new Product { ProductId = 3, Name = "Duriant", Price = 79 }
             };
         } 
         [HttpGet]
