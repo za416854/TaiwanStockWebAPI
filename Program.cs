@@ -13,6 +13,8 @@ namespace TestWebAPI
     {
         public static void Main(string[] args)
         {
+            // Build：建構應用程式實例；
+            // Run：設定應用程式的主要運行邏輯。將應用程式配置好後，進入運行狀態，開始處理請求。
             CreateHostBuilder(args).Build().Run();
         }
 
