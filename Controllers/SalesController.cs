@@ -47,7 +47,7 @@ namespace TestWebAPI.Controllers
                 {
                     while (await reader.ReadAsync())
                     {
-                        Sales sale = new Sales
+                        Sales sale = new()
                         {
                             SaleId = (int)reader["sale_id"],
                             ProductId = (int)reader["product_id"],
